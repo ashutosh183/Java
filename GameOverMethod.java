@@ -3,13 +3,15 @@ class GameOverMethod{
             boolean gameOver = true;
             int score = 2300;
             int levelCompleted = 10;
-            long value = calculateScore(gameOver, score, levelCompleted);
-            System.out.println(value);
+            long value1 = calculateScore(gameOver, score, levelCompleted);
             gameOver = true;
             score = 23500;
             levelCompleted = 34;
-            value = calculateScore(gameOver, score, levelCompleted);
-            System.out.println(value);
+            long value2 = calculateScore(gameOver, score, levelCompleted);
+            if(value1 < value2)
+                  System.out.println(value2);
+            else
+                  System.out.println(value1);
       }
 
       public static long calculateScore(boolean gameOver, int score, int levelCompleted){
