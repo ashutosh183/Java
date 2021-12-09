@@ -11,5 +11,12 @@ class StringBuilders{
 
             sb.setCharAt(5, 'd');
             System.out.println(sb);
+            sb.setCharAt(5, 'o');
+            System.out.println(sb);
+            //SETTING A CHAR AT PARTICULAR INDEX
+            sb.insert(0, 'T');
+            sb.insert(1, '.');
+
+            System.out.println(sb);
       }
 }
