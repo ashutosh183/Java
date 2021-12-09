@@ -4,7 +4,7 @@ class ReverseString{
 
             for(int i=0; i<str.length()/2; ++i){
                   int front = i;
-                  int back = sb.length() - 1 - i;
+                  int back = str.length() - 1 - i;
 
                   char frontChar = str.charAt(front);
                   char backChar = str.charAt(back);
