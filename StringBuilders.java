@@ -6,5 +6,10 @@ class StringBuilders{
 
             //PRINTING CHAR AT INDEX I
             System.out.println(sb.charAt(5));
+
+            //SET CHARACTER AT INDEX I
+
+            sb.setCharAt(5, 'd');
+            System.out.println(sb);
       }
 }
