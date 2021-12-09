@@ -33,5 +33,8 @@ class StringBuilders{
             sb.append('n');
             sb.append("dey");
             System.out.println(sb);
+
+            //TO FIND THE LENGTH
+            System.out.println(sb.length());
       }
 }
