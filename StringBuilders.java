@@ -16,7 +16,12 @@ class StringBuilders{
             //SETTING A CHAR AT PARTICULAR INDEX
             sb.insert(0, 'T');
             sb.insert(1, '.');
+            System.out.println(sb);
 
+            //DELETING THE EXTRA CHARACTER "T."
+            //END INDEX IS EXCLUSIVE
+            //THIS WILL DELETE ONLY CHARACTERS FROM INDEX 0 TILL 1.
+            sb.delete(0, 2);
             System.out.println(sb);
       }
 }
