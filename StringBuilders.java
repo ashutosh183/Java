@@ -23,5 +23,15 @@ class StringBuilders{
             //THIS WILL DELETE ONLY CHARACTERS FROM INDEX 0 TILL 1.
             sb.delete(0, 2);
             System.out.println(sb);
+
+            //ADDING CHARACTERS AT THE END
+            sb.append(' ');
+            sb.append("Kumar");
+            sb.append(' ');
+            sb.append('P');
+            sb.append('a');
+            sb.append('n');
+            sb.append("dey");
+            System.out.println(sb);
       }
 }
